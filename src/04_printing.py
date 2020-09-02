@@ -12,6 +12,14 @@ z = "I like turtles!"
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
 
+# %s = STRING, %f = FLOATING NUMBER, %d = INTEGER
+
+print("x is %d," % x, "y is %.2f," % y, "z is %s" % z)
+
 # Use the 'format' string method to print the same thing
 
+print(f"x is {x}, y is {y}, z is {z}")
+
 # Finally, print the same thing using an f-string
+
+#print()
