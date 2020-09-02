@@ -55,7 +55,6 @@ print(waypoints)
 
 # Write a loop that prints out all the field values for all the waypoints
 
-
 for x in waypoints:
     print(x["lat"])
     print(x["lon"])
